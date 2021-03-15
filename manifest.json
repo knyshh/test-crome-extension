@@ -27,7 +27,7 @@
     "default_popup": "index.html"
   },
   "content_scripts": [{
-    "matches": ["*://learn.stg.nexford.net/*", "*://localhost/*"],
+    "matches": ["*://learn.stg.nexford.net/*"],
     "js": [ "content.js"],
     "css": [ "index.css" ]
   }],
